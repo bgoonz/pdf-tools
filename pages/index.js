@@ -14,8 +14,9 @@ export default function home() {
         <hr></hr>
         <h2>Usage</h2>
         <br></br>
+        <center>
         <img src="https://i.imgur.com/5JDpzgO.gif" />
-
+        </center>
 <h5>
   Code Samples:
 </h5>
