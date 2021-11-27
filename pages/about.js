@@ -7,15 +7,11 @@ export default function about() {
         <title>pdftoolz -Home</title>
       </Head>
       <div>
-        <br>
-        </br>
+        <br></br>
         <a href="https://github.com/bgoonz/pdf-tools">Github Repo</a>
-        <br>
-        </br>
-        <hr>
-        </hr>
-        <br>
-        </br>
+        <br></br>
+        <hr></hr>
+        <br></br>
         <img src="https://i.imgur.com/5JDpzgO.gif" />
       </div>
     </>

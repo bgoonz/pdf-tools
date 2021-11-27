@@ -1,0 +1,67 @@
+.fileupload_dropFileInput__3eFei {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  border: 4px dashed #000;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  background-color: #fefff7;
+}
+.fileupload_dropFileInput__3eFei input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.fileupload_dropFileInput__3eFei.fileupload_dragover__IPQUE,
+.fileupload_dropFileInput__3eFei:hover {
+  opacity: 0.6;
+}
+.fileupload_dropFileInput__label__36oRU {
+  text-align: center;
+  font-weight: 800;
+  padding: 14px;
+}
+.filelist_dragHandler__38ZOC {
+  color: #000;
+  background: #fff;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  margin: 0 10px;
+}
+.filelist_dragContainer__334O1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 1rem;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+.filelist_dragElement__3PrGi {
+  height: 350px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.89);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.89);
+}
+.filelist_dragElement2__3MFpg,
+.filelist_dragElement__3PrGi {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 10fr 5fr;
+  place-items: center;
+}
+.filelist_dragElement2__3MFpg {
+  height: 300px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}

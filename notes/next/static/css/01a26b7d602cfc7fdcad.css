@@ -1,0 +1,12 @@
+.nav-item,
+.navbar-brand {
+  cursor: pointer;
+  background-color: #faebd7;
+}
+.col-sm-8::-webkit-scrollbar {
+  display: none;
+}
+.col-sm-8 {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

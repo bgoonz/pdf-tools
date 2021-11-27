@@ -1,0 +1,71 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/5Og_0G5ro28GcE4-y-XMd/_buildManifest.js",
+    "static/5Og_0G5ro28GcE4-y-XMd/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/chunks/pages/index-d10f3521aebfda570434.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/css/01a26b7d602cfc7fdcad.css",
+      "static/chunks/pages/_app-fb4d73462a2f0c62fe98.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/chunks/pages/_error-737a04e9a0da63c9d162.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/chunks/pages/about-163fb5bd5693785ca81c.js"
+    ],
+    "/pdf-tools/merge": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/chunks/2b7b2d2a-24f330207e5aa92cfebd.js",
+      "static/chunks/185-8edb238e6d615fb05f75.js",
+      "static/chunks/730-ba9a7fdb29315d1b5387.js",
+      "static/css/13edd58d0aff848bbf72.css",
+      "static/chunks/pages/pdf-tools/merge-d90460ef22df9275c7e4.js"
+    ],
+    "/pdf-tools/rotate": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/chunks/2b7b2d2a-24f330207e5aa92cfebd.js",
+      "static/chunks/185-8edb238e6d615fb05f75.js",
+      "static/chunks/733-2e6fbf1e1e8856e05a9a.js",
+      "static/chunks/730-ba9a7fdb29315d1b5387.js",
+      "static/css/13edd58d0aff848bbf72.css",
+      "static/chunks/pages/pdf-tools/rotate-1b33da795ab209009acb.js"
+    ],
+    "/pdf-tools/split": [
+      "static/chunks/webpack-af28476a2e7790fd48db.js",
+      "static/chunks/framework-2191d16384373197bc0a.js",
+      "static/chunks/main-ca92031ebcb355b13699.js",
+      "static/chunks/2b7b2d2a-24f330207e5aa92cfebd.js",
+      "static/chunks/185-8edb238e6d615fb05f75.js",
+      "static/chunks/733-2e6fbf1e1e8856e05a9a.js",
+      "static/chunks/730-ba9a7fdb29315d1b5387.js",
+      "static/css/13edd58d0aff848bbf72.css",
+      "static/chunks/pages/pdf-tools/split-8def207a1a074c08fca5.js"
+    ]
+  },
+  "ampFirstPages": []
+}

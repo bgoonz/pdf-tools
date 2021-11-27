@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/": "pages/index.html",
+  "/pdf-tools/merge": "pages/pdf-tools/merge.html",
+  "/pdf-tools/rotate": "pages/pdf-tools/rotate.html",
+  "/pdf-tools/split": "pages/pdf-tools/split.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
