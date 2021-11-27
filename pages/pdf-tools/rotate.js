@@ -11,7 +11,7 @@ export default function merge() {
   return (
     <>
       <Head>
-        <title>PDFActions - Rotate PDF</title>
+        <title>pdftoolz - Rotate PDF</title>
       </Head>
       <div>
         {files.length === 0 ? (

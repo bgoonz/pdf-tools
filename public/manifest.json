@@ -1,6 +1,6 @@
 {
-  "name": "PDFActions",
-  "short_name": "PDFActions",
+  "name": "pdftoolz",
+  "short_name": "pdftoolz",
   "theme_color": "#ffffff",
   "background_color": "#004740",
   "display": "fullscreen",

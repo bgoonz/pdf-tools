@@ -11,7 +11,7 @@ export default function merge() {
   return (
     <>
       <Head>
-        <title>PDFActions - Merge PDF</title>
+        <title>pdftoolz - Merge PDF</title>
       </Head>
       <div>
         {files.length === 0 ? (

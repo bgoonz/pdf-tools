@@ -5,7 +5,7 @@ export default function about() {
   return (
     <>
       <Head>
-        <title>PDFActions - About</title>
+        <title>pdftoolz - About</title>
       </Head>
       <div>
         <h2>About</h2>

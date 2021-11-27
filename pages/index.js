@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>PDFActions</title>
+        <title>pdftoolz</title>
       </Head>
       <div>
         <h2>Home</h2>
