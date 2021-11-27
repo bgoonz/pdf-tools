@@ -44,7 +44,7 @@
           b = e.locale;
         "string" === typeof h && (h = i.default.createElement("a", null, h));
         var x =
-            (t = i.default.Children.only(h)) && "object" === typeof t && t.ref,
+          (t = i.default.Children.only(h)) && "object" === typeof t && t.ref,
           j = s.useIntersection({ rootMargin: "200px" }),
           w = r(j, 2),
           y = w[0],
@@ -53,9 +53,9 @@
             function (e) {
               y(e),
                 x &&
-                  ("function" === typeof x
-                    ? x(e)
-                    : "object" === typeof x && (x.current = e));
+                ("function" === typeof x
+                  ? x(e)
+                  : "object" === typeof x && (x.current = e));
             },
             [x, y]
           );
@@ -75,35 +75,35 @@
               "function" === typeof t.props.onClick &&
               t.props.onClick(e),
               e.defaultPrevented ||
-                (function (e, t, n, r, a, i, l, s) {
-                  ("A" !== e.currentTarget.nodeName ||
-                    (!(function (e) {
-                      var t = e.currentTarget.target;
-                      return (
-                        (t && "_self" !== t) ||
-                        e.metaKey ||
-                        e.ctrlKey ||
-                        e.shiftKey ||
-                        e.altKey ||
-                        (e.nativeEvent && 2 === e.nativeEvent.which)
-                      );
-                    })(e) &&
-                      o.isLocalURL(n))) &&
-                    (e.preventDefault(),
+              (function (e, t, n, r, a, i, l, s) {
+                ("A" !== e.currentTarget.nodeName ||
+                  (!(function (e) {
+                    var t = e.currentTarget.target;
+                    return (
+                      (t && "_self" !== t) ||
+                      e.metaKey ||
+                      e.ctrlKey ||
+                      e.shiftKey ||
+                      e.altKey ||
+                      (e.nativeEvent && 2 === e.nativeEvent.which)
+                    );
+                  })(e) &&
+                    o.isLocalURL(n))) &&
+                  (e.preventDefault(),
                     null == l && r.indexOf("#") >= 0 && (l = !1),
                     t[a ? "replace" : "push"](n, r, {
                       shallow: i,
                       locale: s,
                       scroll: l,
                     }));
-                })(e, a, d, f, v, g, m, b);
+              })(e, a, d, f, v, g, m, b);
           },
           onMouseEnter: function (e) {
             o.isLocalURL(d) &&
               (t.props &&
                 "function" === typeof t.props.onMouseEnter &&
                 t.props.onMouseEnter(e),
-              p(a, d, f, { priority: !0 }));
+                p(a, d, f, { priority: !0 }));
           },
         };
         if (e.passHref || ("a" === t.type && !("href" in t.props))) {
@@ -134,51 +134,51 @@
               function (e) {
                 s.current && (s.current(), (s.current = void 0)),
                   n ||
-                    u ||
-                    (e &&
-                      e.tagName &&
-                      (s.current = (function (e, t, n) {
-                        var r = (function (e) {
-                            var t = e.rootMargin || "",
-                              n = l.get(t);
-                            if (n) return n;
-                            var r = new Map(),
-                              a = new IntersectionObserver(function (e) {
-                                e.forEach(function (e) {
-                                  var t = r.get(e.target),
-                                    n =
-                                      e.isIntersecting ||
-                                      e.intersectionRatio > 0;
-                                  t && n && t(n);
-                                });
-                              }, e);
-                            return (
-                              l.set(
-                                t,
-                                (n = { id: t, observer: a, elements: r })
-                              ),
-                              n
-                            );
-                          })(n),
-                          a = r.id,
-                          i = r.observer,
-                          o = r.elements;
+                  u ||
+                  (e &&
+                    e.tagName &&
+                    (s.current = (function (e, t, n) {
+                      var r = (function (e) {
+                        var t = e.rootMargin || "",
+                          n = l.get(t);
+                        if (n) return n;
+                        var r = new Map(),
+                          a = new IntersectionObserver(function (e) {
+                            e.forEach(function (e) {
+                              var t = r.get(e.target),
+                                n =
+                                  e.isIntersecting ||
+                                  e.intersectionRatio > 0;
+                              t && n && t(n);
+                            });
+                          }, e);
                         return (
-                          o.set(e, t),
-                          i.observe(e),
-                          function () {
-                            o.delete(e),
-                              i.unobserve(e),
-                              0 === o.size && (i.disconnect(), l.delete(a));
-                          }
+                          l.set(
+                            t,
+                            (n = { id: t, observer: a, elements: r })
+                          ),
+                          n
                         );
-                      })(
-                        e,
-                        function (e) {
-                          return e && d(e);
-                        },
-                        { rootMargin: t }
-                      )));
+                      })(n),
+                        a = r.id,
+                        i = r.observer,
+                        o = r.elements;
+                      return (
+                        o.set(e, t),
+                        i.observe(e),
+                        function () {
+                          o.delete(e),
+                            i.unobserve(e),
+                            0 === o.size && (i.disconnect(), l.delete(a));
+                        }
+                      );
+                    })(
+                      e,
+                      function (e) {
+                        return e && d(e);
+                      },
+                      { rootMargin: t }
+                    )));
               },
               [n, t, u]
             );
@@ -250,13 +250,13 @@
                   children: [
                     [
                       ["Home", "/"],
-                      ["About", "/about"],
+
                     ].map(function (e, t) {
                       var n = (0, i.Z)(e, 2),
                         r = n[0],
                         a = n[1];
                       return (0,
-                      l.jsx)("li", { className: "nav-item", children: (0, l.jsx)(o.default, { href: a, children: (0, l.jsx)("div", { className: "nav-link", children: r }) }) }, t);
+                        l.jsx)("li", { className: "nav-item", children: (0, l.jsx)(o.default, { href: a, children: (0, l.jsx)("div", { className: "nav-link", children: r }) }) }, t);
                     }),
                     (0, l.jsxs)("li", {
                       className: "nav-item dropdown",
@@ -281,7 +281,7 @@
                               r = n[0],
                               a = n[1];
                             return (0,
-                            l.jsx)("li", { children: (0, l.jsx)(o.default, { href: "/pdf-tools/".concat(a), children: (0, l.jsx)("div", { className: "dropdown-item", children: r }) }) }, t);
+                              l.jsx)("li", { children: (0, l.jsx)(o.default, { href: "/pdf-tools/".concat(a), children: (0, l.jsx)("div", { className: "dropdown-item", children: r }) }) }, t);
                           }),
                         }),
                       ],
@@ -294,187 +294,187 @@
         });
       }
       var c = n(9008);
-      const p = () => {};
+      const p = () => { };
       function u(e, t) {
         return Math.floor(Math.random() * (t - e + 1) + e);
       }
       var d = (0, a.forwardRef)(
-          (
-            {
-              progress: e,
-              height: t = 2,
-              className: n = "",
-              color: r = "red",
-              background: i = "transparent",
-              onLoaderFinished: o,
-              transitionTime: l = 300,
-              loaderSpeed: s = 500,
-              waitingTime: c = 1e3,
-              shadow: d = !0,
-              containerStyle: f = {},
-              style: h = {},
-              shadowStyle: v = {},
-              containerClassName: g = "",
+        (
+          {
+            progress: e,
+            height: t = 2,
+            className: n = "",
+            color: r = "red",
+            background: i = "transparent",
+            onLoaderFinished: o,
+            transitionTime: l = 300,
+            loaderSpeed: s = 500,
+            waitingTime: c = 1e3,
+            shadow: d = !0,
+            containerStyle: f = {},
+            style: h = {},
+            shadowStyle: v = {},
+            containerClassName: g = "",
+          },
+          m
+        ) => {
+          const b = (0, a.useRef)(!1),
+            [x, j] = (0, a.useState)(0),
+            [w, y] = (0, a.useState)({
+              active: !1,
+              startingValue: 20,
+              refreshRate: 1e3,
+            }),
+            [k, E] = (0, a.useState)(!1),
+            [O, N] = (0, a.useState)({ active: !1, value: 20 }),
+            S = {
+              height: "100%",
+              background: r,
+              transition: `all ${s}ms ease`,
+              width: "0%",
             },
-            m
-          ) => {
-            const b = (0, a.useRef)(!1),
-              [x, j] = (0, a.useState)(0),
-              [w, y] = (0, a.useState)({
-                active: !1,
-                startingValue: 20,
-                refreshRate: 1e3,
-              }),
-              [k, E] = (0, a.useState)(!1),
-              [O, N] = (0, a.useState)({ active: !1, value: 20 }),
-              S = {
-                height: "100%",
-                background: r,
-                transition: `all ${s}ms ease`,
-                width: "0%",
-              },
-              P = {
-                position: "fixed",
-                top: 0,
-                left: 0,
-                height: t,
-                background: i,
-                zIndex: 99999999999,
-                width: "100%",
-              },
-              M = {
-                boxShadow: `0 0 10px ${r}, 0 0 10px ${r}`,
-                width: "5%",
-                opacity: 1,
-                position: "absolute",
-                height: "100%",
-                transition: `all ${s}ms ease`,
-                transform: "rotate(3deg) translate(0px, -4px)",
-                left: "-10rem",
-              },
-              [R, C] = (0, a.useState)(S),
-              [_, D] = (0, a.useState)(M);
-            (0, a.useEffect)(
-              () => (
-                (b.current = !0),
-                () => {
-                  b.current = !1;
-                }
-              ),
-              []
+            P = {
+              position: "fixed",
+              top: 0,
+              left: 0,
+              height: t,
+              background: i,
+              zIndex: 99999999999,
+              width: "100%",
+            },
+            M = {
+              boxShadow: `0 0 10px ${r}, 0 0 10px ${r}`,
+              width: "5%",
+              opacity: 1,
+              position: "absolute",
+              height: "100%",
+              transition: `all ${s}ms ease`,
+              transform: "rotate(3deg) translate(0px, -4px)",
+              left: "-10rem",
+            },
+            [R, C] = (0, a.useState)(S),
+            [_, D] = (0, a.useState)(M);
+          (0, a.useEffect)(
+            () => (
+              (b.current = !0),
+              () => {
+                b.current = !1;
+              }
             ),
-              (0, a.useImperativeHandle)(m, () => ({
-                continuousStart(e, t = 1e3) {
-                  if (O.active) return;
-                  if (k)
-                    return void console.warn(
-                      "react-top-loading-bar: You can't use both controlling by props and ref methods to control the bar!"
-                    );
-                  const n = e || u(10, 20);
-                  y({ active: !0, refreshRate: t, startingValue: e }),
-                    j(n),
-                    L(n);
-                },
-                staticStart(e) {
-                  if (w.active) return;
-                  if (k)
-                    return void console.warn(
-                      "react-top-loading-bar: You can't use both controlling by props and ref methods to control the bar!"
-                    );
-                  const t = e || u(30, 50);
-                  N({ active: !0, value: t }), j(t), L(t);
-                },
-                complete() {
-                  k
-                    ? console.warn(
-                        "react-top-loading-bar: You can't use both controlling by props and ref methods to control the bar!"
-                      )
-                    : (j(100), L(100));
-                },
-              })),
-              (0, a.useEffect)(() => {
-                C({ ...R, background: r }),
-                  D({ ..._, boxShadow: `0 0 10px ${r}, 0 0 5px ${r}` });
-              }, [r]),
-              (0, a.useEffect)(() => {
-                if (m) {
-                  if (m && void 0 !== e)
-                    return void console.warn(
-                      'react-top-loading-bar: You can\'t use both controlling by props and ref methods to control the bar! Please use only props or only ref methods! Ref methods will override props if "ref" property is available.'
-                    );
-                  L(x), E(!1);
-                } else e && L(e), E(!0);
-              }, [e]);
-            const L = (e) => {
-              e >= 100
-                ? (C({ ...R, width: "100%" }),
-                  d && D({ ..._, left: e - 10 + "%" }),
-                  setTimeout(() => {
-                    b.current &&
-                      (C({
-                        ...R,
-                        opacity: 0,
-                        width: "100%",
-                        transition: `all ${l}ms ease-out`,
-                        color: r,
-                      }),
+            []
+          ),
+            (0, a.useImperativeHandle)(m, () => ({
+              continuousStart(e, t = 1e3) {
+                if (O.active) return;
+                if (k)
+                  return void console.warn(
+                    "react-top-loading-bar: You can't use both controlling by props and ref methods to control the bar!"
+                  );
+                const n = e || u(10, 20);
+                y({ active: !0, refreshRate: t, startingValue: e }),
+                  j(n),
+                  L(n);
+              },
+              staticStart(e) {
+                if (w.active) return;
+                if (k)
+                  return void console.warn(
+                    "react-top-loading-bar: You can't use both controlling by props and ref methods to control the bar!"
+                  );
+                const t = e || u(30, 50);
+                N({ active: !0, value: t }), j(t), L(t);
+              },
+              complete() {
+                k
+                  ? console.warn(
+                    "react-top-loading-bar: You can't use both controlling by props and ref methods to control the bar!"
+                  )
+                  : (j(100), L(100));
+              },
+            })),
+            (0, a.useEffect)(() => {
+              C({ ...R, background: r }),
+                D({ ..._, boxShadow: `0 0 10px ${r}, 0 0 5px ${r}` });
+            }, [r]),
+            (0, a.useEffect)(() => {
+              if (m) {
+                if (m && void 0 !== e)
+                  return void console.warn(
+                    'react-top-loading-bar: You can\'t use both controlling by props and ref methods to control the bar! Please use only props or only ref methods! Ref methods will override props if "ref" property is available.'
+                  );
+                L(x), E(!1);
+              } else e && L(e), E(!0);
+            }, [e]);
+          const L = (e) => {
+            e >= 100
+              ? (C({ ...R, width: "100%" }),
+                d && D({ ..._, left: e - 10 + "%" }),
+                setTimeout(() => {
+                  b.current &&
+                    (C({
+                      ...R,
+                      opacity: 0,
+                      width: "100%",
+                      transition: `all ${l}ms ease-out`,
+                      color: r,
+                    }),
                       setTimeout(() => {
                         b.current &&
                           (w.active && (y({ ...w, active: !1 }), j(0), L(0)),
-                          O.active && (N({ ...O, active: !1 }), j(0), L(0)),
-                          o && o(),
-                          j(0),
-                          L(0));
+                            O.active && (N({ ...O, active: !1 }), j(0), L(0)),
+                            o && o(),
+                            j(0),
+                            L(0));
                       }, l));
-                  }, c))
-                : (C((t) => ({
-                    ...t,
-                    width: e + "%",
-                    opacity: 1,
-                    transition: e > 0 ? `all ${s}ms ease` : "",
-                  })),
-                  d &&
-                    D({
-                      ..._,
-                      left: e - 5.5 + "%",
-                      transition: e > 0 ? `all ${s}ms ease` : "",
-                    }));
-            };
-            return (
-              (function (e, t, n) {
-                const r = (0, a.useRef)(p);
+                }, c))
+              : (C((t) => ({
+                ...t,
+                width: e + "%",
+                opacity: 1,
+                transition: e > 0 ? `all ${s}ms ease` : "",
+              })),
+                d &&
+                D({
+                  ..._,
+                  left: e - 5.5 + "%",
+                  transition: e > 0 ? `all ${s}ms ease` : "",
+                }));
+          };
+          return (
+            (function (e, t, n) {
+              const r = (0, a.useRef)(p);
+              (0, a.useEffect)(() => {
+                r.current = e;
+              }),
                 (0, a.useEffect)(() => {
-                  r.current = e;
-                }),
-                  (0, a.useEffect)(() => {
-                    n && null !== t && !1 !== t && r.current();
-                  }, [n]),
-                  (0, a.useEffect)(() => {
-                    if (null === t || !1 === t) return;
-                    const e = setInterval(() => r.current(), t);
-                    return () => clearInterval(e);
-                  }, [t]);
-              })(
-                () => {
-                  const e = u(10, 20);
-                  x + e < 90 && (j(x + e), L(x + e));
-                },
-                w.active ? w.refreshRate : null
-              ),
+                  n && null !== t && !1 !== t && r.current();
+                }, [n]),
+                (0, a.useEffect)(() => {
+                  if (null === t || !1 === t) return;
+                  const e = setInterval(() => r.current(), t);
+                  return () => clearInterval(e);
+                }, [t]);
+            })(
+              () => {
+                const e = u(10, 20);
+                x + e < 90 && (j(x + e), L(x + e));
+              },
+              w.active ? w.refreshRate : null
+            ),
+            (0, a.createElement)(
+              "div",
+              { className: g, style: { ...P, ...f } },
               (0, a.createElement)(
                 "div",
-                { className: g, style: { ...P, ...f } },
-                (0, a.createElement)(
-                  "div",
-                  { className: n, style: { ...R, ...h } },
-                  d
-                    ? (0, a.createElement)("div", { style: { ..._, ...v } })
-                    : null
-                )
+                { className: n, style: { ...R, ...h } },
+                d
+                  ? (0, a.createElement)("div", { style: { ..._, ...v } })
+                  : null
               )
-            );
-          }
-        ),
+            )
+          );
+        }
+      ),
         f = n(1163);
       function h(e, t) {
         var n = Object.keys(e);
@@ -493,11 +493,11 @@
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
             ? h(Object(n), !0).forEach(function (t) {
-                (0, r.Z)(e, t, n[t]);
-              })
+              (0, r.Z)(e, t, n[t]);
+            })
             : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : h(Object(n)).forEach(function (t) {
+              ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
+              : h(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -656,7 +656,7 @@
         },
       ]);
     },
-    3146: function () {},
+    3146: function () { },
     9008: function (e, t, n) {
       e.exports = n(639);
     },
@@ -685,11 +685,11 @@
         return (
           t in e
             ? Object.defineProperty(e, t, {
-                value: n,
-                enumerable: !0,
-                configurable: !0,
-                writable: !0,
-              })
+              value: n,
+              enumerable: !0,
+              configurable: !0,
+              writable: !0,
+            })
             : (e[t] = n),
           e
         );
@@ -718,7 +718,7 @@
               null == e
                 ? null
                 : ("undefined" !== typeof Symbol && e[Symbol.iterator]) ||
-                  e["@@iterator"];
+                e["@@iterator"];
             if (null != n) {
               var r,
                 a,
@@ -771,8 +771,8 @@
               ? Array.from(e)
               : "Arguments" === n ||
                 /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)
-              ? (0, r.Z)(e, t)
-              : void 0
+                ? (0, r.Z)(e, t)
+                : void 0
           );
         }
       }

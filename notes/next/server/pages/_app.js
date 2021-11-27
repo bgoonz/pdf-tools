@@ -26,7 +26,7 @@
       function Navbar() {
         const navOptions = [
           ["Home", "/"],
-          ["About", "/about"],
+        
         ];
         const pdfToolsDropdownOptions = [
           ["Merge PDF", "merge"],
