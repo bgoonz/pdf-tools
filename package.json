@@ -1,0 +1,28 @@
+{
+  "name": "pdfactions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.7.1",
+    "next": "11.1.2",
+    "next-pwa": "^5.4.0",
+    "pdf-actions": "^1.0.8",
+    "pdfjs-dist": "^2.10.377",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-sortable-hoc": "^2.0.0",
+    "react-top-loading-bar": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2"
+  }
+}
