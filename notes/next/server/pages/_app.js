@@ -24,10 +24,7 @@
       // EXTERNAL MODULE: external "react/jsx-runtime"
       const jsx_runtime_ = __webpack_require__(5282); // CONCATENATED MODULE: ./components/Navbar.jsx
       function Navbar() {
-        const navOptions = [
-          ["Home", "/"],
-        
-        ];
+        const navOptions = [["Home", "/"]];
         const pdfToolsDropdownOptions = [
           ["Merge PDF", "merge"],
           ["Split PDF", "split"],
