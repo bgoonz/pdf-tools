@@ -10,24 +10,24 @@
     "export": "next export"
   },
   "dependencies": {
-    "file-saver": "^2.0.5",
-    "jszip": "^3.7.1",
+    "file-saver": "2.0.5",
+    "jszip": "3.7.1",
     "next": "11.1.2",
-    "next-compose-plugins": "^2.2.1",
-    "next-pwa": "^5.2.24",
-    "pdf-actions": "^1.0.8",
-    "pdfjs-dist": "^2.10.377",
-    "prism-react-renderer": "^1.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^3.4.4",
-    "react-simple-code-editor": "^0.11.0",
-    "react-sortable-hoc": "^2.0.0",
-    "react-top-loading-bar": "^2.0.1",
-    "styled-components": "^5.3.3"
+    "next-compose-plugins": "2.2.1",
+    "next-pwa": "5.4.1",
+    "pdf-actions": "1.0.8",
+    "pdfjs-dist": "2.10.377",
+    "prism-react-renderer": "1.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "3.4.4",
+    "react-simple-code-editor": "0.11.0",
+    "react-sortable-hoc": "2.0.0",
+    "react-top-loading-bar": "2.1.0",
+    "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "eslint": "^8.3.0",
+    "eslint": "8.3.0",
     "eslint-config-next": "11.1.2"
   }
 }
