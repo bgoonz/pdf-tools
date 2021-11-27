@@ -9,6 +9,7 @@ export default function about() {
       </Head>
       <div>
         <h2>About</h2>
+        <a href="https://github.com/bgoonz/pdf-tools">Github Repo</a>
       </div>
     </>
   );
