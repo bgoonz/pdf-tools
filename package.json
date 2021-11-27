@@ -20,9 +20,11 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^3.4.4",
+    "react-simple-code-editor": "^0.11.0",
     "react-sortable-hoc": "^2.0.0",
-    "react-top-loading-bar": "^2.0.1"
+    "react-top-loading-bar": "^2.0.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
