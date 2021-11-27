@@ -1,6 +1,7 @@
 .nav-item,
 .navbar-brand {
   cursor: pointer;
+  background-color: antiquewhite;
 }
 
 .col-sm-8::-webkit-scrollbar {
