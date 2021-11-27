@@ -158,7 +158,7 @@
         (typeof self !== "undefined" &&
           self.requestIdleCallback &&
           self.requestIdleCallback.bind(window)) ||
-        (cb => {
+        ((cb) => {
           let start = Date.now();
           return setTimeout(() => {
             cb({
@@ -176,7 +176,7 @@
         (typeof self !== "undefined" &&
           self.cancelIdleCallback &&
           self.cancelIdleCallback.bind(window)) ||
-        (id => {
+        ((id) => {
           return clearTimeout(id);
         });
 
@@ -226,13 +226,13 @@
 
           if (typeof Object.getOwnPropertySymbols === "function") {
             ownKeys = ownKeys.concat(
-              Object.getOwnPropertySymbols(source).filter(sym => {
+              Object.getOwnPropertySymbols(source).filter((sym) => {
                 return Object.getOwnPropertyDescriptor(source, sym).enumerable;
               })
             );
           }
 
-          ownKeys.forEach(key => {
+          ownKeys.forEach((key) => {
             _defineProperty(target, key, source[key]);
           });
         }
@@ -319,10 +319,10 @@
               onLoad.call(this, e);
             }
           });
-          el.addEventListener("error", e => {
+          el.addEventListener("error", (e) => {
             reject(e);
           });
-        }).catch(e => {
+        }).catch((e) => {
           if (onError) {
             onError(e);
           }
@@ -463,7 +463,7 @@
         if (Object.getOwnPropertySymbols) {
           let symbols = Object.getOwnPropertySymbols(object);
           if (enumerableOnly) {
-            symbols = symbols.filter(sym => {
+            symbols = symbols.filter((sym) => {
               return Object.getOwnPropertyDescriptor(object, sym).enumerable;
             });
           }
@@ -476,7 +476,7 @@
         for (let i = 1; i < arguments.length; i++) {
           const source = arguments[i] != null ? arguments[i] : {};
           if (i % 2) {
-            ownKeys(Object(source), true).forEach(key => {
+            ownKeys(Object(source), true).forEach((key) => {
               _defineProperty(target, key, source[key]);
             });
           } else if (Object.getOwnPropertyDescriptors) {
@@ -485,7 +485,7 @@
               Object.getOwnPropertyDescriptors(source)
             );
           } else {
-            ownKeys(Object(source)).forEach(key => {
+            ownKeys(Object(source)).forEach((key) => {
               Object.defineProperty(
                 target,
                 key,

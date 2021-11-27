@@ -5,10 +5,11 @@ export default function about() {
     <>
       <Head>
         <title>pdftoolz -Home</title>
+        <a href="https://github.com/bgoonz/pdf-tools">Github Repo</a>
       </Head>
       <div>
         <br></br>
-        <a href="https://github.com/bgoonz/pdf-tools">Github Repo</a>
+  
         <br></br>
         <hr></hr>
         <br></br>

@@ -143,7 +143,7 @@
         if (Object.getOwnPropertySymbols) {
           let symbols = Object.getOwnPropertySymbols(object);
           if (enumerableOnly) {
-            symbols = symbols.filter(sym => {
+            symbols = symbols.filter((sym) => {
               return Object.getOwnPropertyDescriptor(object, sym).enumerable;
             });
           }
@@ -156,7 +156,7 @@
         for (let i = 1; i < arguments.length; i++) {
           const source = arguments[i] != null ? arguments[i] : {};
           if (i % 2) {
-            ownKeys(Object(source), true).forEach(key => {
+            ownKeys(Object(source), true).forEach((key) => {
               _defineProperty(target, key, source[key]);
             });
           } else if (Object.getOwnPropertyDescriptors) {
@@ -165,7 +165,7 @@
               Object.getOwnPropertyDescriptors(source)
             );
           } else {
-            ownKeys(Object(source)).forEach(key => {
+            ownKeys(Object(source)).forEach((key) => {
               Object.defineProperty(
                 target,
                 key,
