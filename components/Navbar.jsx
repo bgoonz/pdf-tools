@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   const navOptions = [
     ["Home", "/"],
+    ["About", "/about"],
   ];
 
   const pdfToolsDropdownOptions = [
