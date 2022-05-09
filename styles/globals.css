@@ -13,3 +13,11 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+body{
+    box-sizing: border-box;
+    display: block;
+  
+    height: 100vh;
+    margin-left:  100px;
+    margin-right:  100px;
+}
