@@ -8,13 +8,13 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# # next.js
+# /.next/
+# /out/
 
 # production
-/build
-/out
+# /build
+# /out
 .firebase
 firebase-debug.log
 
